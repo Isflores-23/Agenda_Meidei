@@ -47,11 +47,12 @@ st.markdown("""
         color: #1F2937 !important;
     }
 
-   section[data-testid="stSidebar"] p, 
+  section[data-testid="stSidebar"] p, 
     section[data-testid="stSidebar"] span, 
-    section[data-testid="stSidebar"] label {
-        color: #FFFFFF !important;
-    }
+    section[data-testid="stSidebar"] label,
+    section[data-testid="stSidebar"] h4 {
+        color: #1F2937 !important;
+    } /* <-- Aquí cierra el primer bloque */
     
     section[data-testid="stSidebar"] div[data-baseweb="select"] span,
     section[data-testid="stSidebar"] input {
