@@ -47,18 +47,16 @@ st.markdown("""
         color: #1F2937 !important;
     }
 
-    section[data-testid="stSidebar"] p, 
+   section[data-testid="stSidebar"] p, 
     section[data-testid="stSidebar"] span, 
-    section[data-testid="stSidebar"] label, 
-    section[data-testid="stSidebar"] div {
+    section[data-testid="stSidebar"] label {
         color: #FFFFFF !important;
     }
     
-    section[data-testid="stSidebar"] input, 
-    section[data-testid="stSidebar"] select,
-    section[data-testid="stSidebar"] div[data-baseweb="select"] span {
-        color: #FFFFFF !important;
-        -webkit-text-fill-color: #FFFFFF !important;
+    section[data-testid="stSidebar"] div[data-baseweb="select"] span,
+    section[data-testid="stSidebar"] input {
+        color: #1F2937 !important;
+        -webkit-text-fill-color: #1F2937 !important;
     }
 
     .sidebar-logo-container {
